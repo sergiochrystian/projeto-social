@@ -65,8 +65,9 @@ section#redes-sociais img:hover {
     /*Transform: Translate (...) Usado para definir a movimentação e rotação do ícone ao passar o mouse por cima */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     /*box-shodow:(...); Usando para quando o ícone levantar a sombra ficar*/
-    transition: transform .8s, border .1s;
-    /*transition: transform (defina o segundos); Usado para SUAVIZAR a movimentação do ícone.
+    transition: transform .8s;
+    /*transition: transform .8s, border .1s;
+    transition: transform (defina o segundos); Usado para SUAVIZAR a movimentação do ícone.
     O border é usado para definir o SURGIMENTO da borda*/
     
 }
