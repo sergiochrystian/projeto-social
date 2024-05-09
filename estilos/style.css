@@ -44,3 +44,29 @@ iframe#tela {
     width: 267px;
     height: 472px;
 }
+
+section#redes-sociais {
+    text-align: right;
+    /*Caso queira usar em outras posições da página, usar outras posições*/
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    /*box-sizing: border-box; (Foi usado para que ao passar o mouse por cima das redes sociais ele dê destaque para apenas um ícone em questão*/
+}
+
+section#redes-sociais img:hover {
+    border: 3px solid rgb(0, 0, 0);
+    transform: translate(-3px, -3px);
+    /*Transform: Translate (...) Usado para definir a movimentação e rotação do ícone ao passar o mouse por cima */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    /*box-shodow:(...); Usando para quando o ícone levantar a sombra ficar*/
+    transition: transform .8s, border .1s;
+    /*transition: transform (defina o segundos); Usado para SUAVIZAR a movimentação do ícone.
+    O border é usado para definir o SURGIMENTO da borda*/
+    
+}
